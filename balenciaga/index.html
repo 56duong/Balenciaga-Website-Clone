@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balenciaga Official Online</title>
+
+    <link rel="shortcut icon" href="./images/logos/favicon-48x48.png">
+
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sample.css">
+
+    <!--js-->
+    <script src="./js/main.js"></script>
+
+    <!--Ion-icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Google-icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="header flex w-full px-20 py-10 border-b" id="header">
+            <div class="menu-icon hidden col-5">
+                <div class="w-fit">
+                    <span id="open-icon" class="material-symbols-outlined">menu</span>
+                    <span id="close-icon" class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="menu col-5">
+                <ul class="flex justify-start space-x-20">
+                    <li class="slideToggle"><a>Shop</a>
+                        <div class="subnav flex slideToggleContent">
+                            <ul class="col-2 space-y-10">
+                                <li>Ready to wear</li>
+                                <li><a href="./html/products.html?category=jackets">Jackets</a></li>
+                                <li><a href="./html/products.html?category=tshirts">T-shirts</a></li>
+                                <li><a href="./html/products.html?category=pants">Pants</a></li>
+                                <li><a href="./html/products.html?category=activewear">Activewear</a></li>
+                            </ul>
+                            <!-- <ul class="col-2 space-y-10">
+                                <li>Shoes</li>
+                                <li></li>
+                                <li><a href="#">Sneakers</a></li>
+                                <li><a href="#">Boots & Derbies</a></li>
+                            </ul> -->
+                            <ul class="col-2 space-y-10">
+                                <li>Bags</li>
+                                <!-- <li><a href="#">Bags & totes</a></li> -->
+                                <li><a href="./html/products.html?category=backpacks">Backpacks</a></li>
+                            </ul>
+                            <!-- <ul class="col-2 space-y-10">
+                                <li>Accessories</li>
+                                <li></li>
+                                <li><a href="#">Sunglasses</a></li>
+                                <li><a href="#">Shocks</a></li>
+                            </ul> -->
+                            <ul class="col-2 space-y-10">
+                                <li><a href="./html/products.html">VIEW ALL</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li><a href="./html/campaign.html">Campaign</a></li>
+
+                    <li class="slideToggle"><a>Explore</a>
+                        <div class="subnav flex slideToggleContent">
+                            <ul class="col-2 space-y-10">
+                                <li>Collections</li>
+                                <li><a href="./html/summer23.html">Summer 23</a></li>
+                                <li><a href="./html/spring23.html">Spring 23</a></li>
+                            </ul>
+                            <ul class="col-2 space-y-10">
+                                <li>History</li>
+                                <li><a href="./html/ristobalbalenciaga.html">Ristóbal Balenciaga</a></li>
+                                <li><a href="./html/demnagvasalia.html">Demna Gvasalia</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./html/contactus.html">Contact us</a></li>
+                    <li class="hidden"><a href="./html/login.html">Log in</a></li>
+                </ul>
+            </div><!--menu-->
+
+            <div class="logo col-2 text-center">
+                <a href="#" class="text-15">
+                    <span class="font-bold">BALENCIAGA</span>
+                </a>
+            </div><!--logo-->
+
+            <div class="setting col-5">
+                <ul class="flex justify-end space-x-20">
+                    <li class="flex dark-light-icon">
+                        <span id="light-icon" class="material-symbols-outlined">light_mode</span>
+                        <span id="dark-icon" class="material-symbols-outlined">dark_mode</span>
+                    </li>
+                    <li class="cart slideToggle">
+                        <a class="cart-icon flex"><span class="material-symbols-outlined">work</span><span id="countInCart" class="flex">0</span></a>
+                        <div class="subnav slideToggleContent">
+                            <div class="cart-item-list">
+                            </div><!--cart-item-list-->
+                            <div class="cart-item flex cart-subtotal">
+                                <h6>Subtotal </h6>
+                                <h6>$ <span id="cartSubtotal">0</span></h6>
+                            </div>
+                            <div class="cart-viewdetail">
+                                <a href="./html/cart.html">View details</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="setting-login"><a href="./html/login.html">Log in</a></li>
+                </ul>
+            </div><!--setting-->
+        </div>
+    </header>
+
+
+
+    <div class="container">
+        <div id="slider-wrapper" class="slider-wrapper">
+            <div id="slider" class="slider flex">
+                <div class="background-image h-screen">
+                    <img src="./images/backgrounds/background1.png" alt="">
+                    <div class="caption-bottom text-white uppercase text-center space-y-10">
+                        <h2 class="font-bold">Winter 22 Collection</h2>
+                        <a href="./html/products.html" class="button">Shop now</a>
+                    </div>
+                </div><!--background-image-->
+                <div class="background-image h-screen">
+                    <img src="./images/backgrounds/background2.png" alt="">
+                    <div class="caption-bottom text-white uppercase text-center space-y-10">
+                        <h2 class="font-bold">Backpacks</h2>
+                        <a href="./html/products.html?category=backpacks" class="button">Shop now</a>
+                    </div>
+                </div><!--background-image-->
+                <div class="background-image h-screen">
+                    <img src="./images/backgrounds/background3.png" alt="">
+                    <div class="caption-bottom text-white uppercase text-center space-y-10">
+                        <h2 class="font-bold">BALENCIAGA / ADIDAS</h2>
+                        <a href="./html/productdetail.html?id=j2" class="button">Shop now</a>
+                    </div>
+                </div><!--background-image-->
+                <div class="background-image h-screen">
+                    <img src="./images/backgrounds/background4.png" alt="">
+                    <div class="caption-bottom text-white uppercase text-center space-y-10">
+                        <h2 class="font-bold">Activewear</h2>
+                        <a href="./html/products.html?category=activewear" class="button">Shop now</a>
+                    </div>
+                </div><!--background-image-->
+            </div><!--slider-->
+            
+            <span id="preSlide" class="material-symbols-outlined" onclick="preSlide()">arrow_back_ios_new</span>
+            <span id="nextSlide" class="material-symbols-outlined" onclick="nextSlide()">arrow_forward_ios</span>
+        </div><!--slider-wrapper-->
+
+
+
+        <div class="index-content1 max-w-1280 my-80 p-20 text-center">
+            <h2>WHAT ARE YOU SHOPPING FOR?</h2>
+
+            <div class="flex space-x-20 mt-20">
+                <a href="./html/products.html?category=jackets" class="card col-3">
+                    <figure>
+                        <img src="./images/more/card1.png" alt="">
+                    </figure>
+                    <h4>Jackets</h4>
+                </a>
+
+                <a href="./html/products.html?category=pants" class="card col-3">
+                    <figure>
+                        <img src="./images/more/card2.png" alt="">
+                    </figure>
+                    <h4>Pants</h4>
+                </a>
+            </div>
+        </div><!--index-content1-->
+
+
+
+        <div class="index-content2 max-w-1280 my-80 p-20 text-center">
+            <h2>NEW ARRIVALS</h2>
+
+            <div id="newarrivals" class="grid grid-cols-4 gap-20 mt-20 maxw-768-grid-cols-2">
+            </div>
+        </div><!--index-content2-->
+
+
+
+        <div class="index-content3 max-w-1280 my-80 p-20 text-center">
+            <h2>NEWS</h2>
+
+            <div class="grid grid-cols-3 gap-20 mt-20 maxw-768-grid-cols-2">
+                <div class="card">
+                    <a href="./html/news1.html">
+                        <figure>
+                            <img src="./images/more/news1.png" alt="">
+                        </figure>
+                        <h5 class="mt-10">Balenciaga pays tribute to Dubai with new collection</h5>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="./html/news2.html">
+                        <figure>
+                            <img src="./images/more/news2.png" alt="">
+                        </figure>
+                        <h5 class="mt-10">Kim Kardashian Is Balenciaga's Latest Campaign Star</h5>
+                    </a>
+                </div>
+
+                <div class="card">
+                    <a href="./html/news3.html">
+                        <figure>
+                            <img src="./images/more/news3.png" alt="">
+                        </figure>
+                        <h5 class="mt-10">What to Shop From Part II of the Yeezy Gap Engineered</h5>
+                    </a>
+                </div>
+            </div>
+        </div><!--index-content3-->
+
+
+
+        <div class="index-content4 max-w-1280 my-80 p-20 text-center">
+            <h2>BEST SELLERS</h2>
+
+            <div id="bestsellers" class="grid grid-cols-3 gap-20 mt-20 maxw-768-grid-cols-2">
+            </div>
+        </div><!--index-content4-->
+
+
+
+        <div class="background-image h-screen my-80">
+            <img src="./images/backgrounds/video.png" alt="">
+            <!-- <video autoplay muted loop>
+                <source src="./videos/acid arab for balenciaga music.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video> -->
+            <div class="caption-bottom text-white uppercase text-center space-y-10">
+                <h2 class="font-bold">BALENCIAGA MUSIC - ACID ARAB MERCH</h2>
+                <a href="./html/acid-arab.html" class="button">Listen now</a>
+            </div>
+        </div><!--background-image-->
+
+
+
+        <div class="index-content5 max-w-1280 my-80 p-20 text-center">
+            <h2>OUR HISTORY</h2>
+
+            <div class="space-y-40 mt-20">
+                <div class="grid grid-cols-2 items-center gap-20 maxw-768-grid-cols-1 maxw-768-gap-10">
+                    <img src="./images/more/history2.png" alt="">
+                    <div class="text-left space-y-10">
+                        <h4>Ristóbal Balenciaga</h4>
+                        <p>The founder of the Balenciaga fashion house. He had a reputation as a couturier of uncompromising standards and was referred to as "the master of us all" by Christian Dior.</p>
+                        <a href="./html/ristobalbalenciaga.html" class="button m-0">Read the blog</a>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 items-center gap-20 maxw-768-grid-cols-1 maxw-768-gap-10">
+                    <img src="./images/more/history1.png" alt="">
+                    <div class="text-left space-y-10">
+                        <h4>Demna Gvasalia</h4>
+                        <p>The appointment at Balenciaga of a designer most usually labelled 'underground' left industry watchers perplexed. Yes with his singular eye, clothes with attitude and pragmatic idea of luxury, Demna Gvasalia has made a good start.</p>
+                        <a href="./html/demnagvasalia.html" class="button m-0">Read the blog</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--index-content5-->
+    </div><!--container-->
+
+
+
+    <footer class="border-t">
+        <div class="footer grid grid-cols-5 gap-20px px-20 py-40">
+            <div class="slideToggle">
+                <h6 class="uppercase mb-10">Newsletter</h6>
+                <ul class="slideToggleContent space-y-5">
+                    <li><a href="#">Subscribe to our newsletter</a></li>
+                </ul>
+            </div>
+            <div class="slideToggle">
+                <h6 class="uppercase mb-10">Client services</h6>
+                <ul class="slideToggleContent space-y-5">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Track order</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Payment</a></li>
+                </ul>
+            </div>
+            <div class="slideToggle">
+                <h6 class="uppercase mb-10">The company</h6>
+                <ul class="slideToggleContent space-y-5">
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Careers - Design</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Privacy policy and cookies</a></li>
+                    <li><a href="#">World food programme</a></li>
+                </ul>
+            </div>
+            <div class="slideToggle">
+                <h6 class="uppercase mb-10">Connect</h6>
+                <ul class="slideToggleContent space-y-5">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+            <div class="slideToggle">
+                <h6 class="uppercase mb-10">Boutiques</h6>
+                <ul class="slideToggleContent space-y-5">
+                    <li><a href="#">Find a store nearby</a></li>
+                    <li><a href="#">Language: English</a></li>
+                </ul>
+            </div>
+        </div><!--footer-->
+
+        <div class="w-full border-t text-center p-10">
+            <p>© Balenciaga</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        //slider
+        var index = 0;
+        var child = document.getElementById("slider").childElementCount;
+
+        function nextSlide() {
+            index++;
+
+            if(index > child - 1) {
+                index = 0;
+            }
+
+            document.getElementById("slider").style.right = (index * 100) + "%";
+        }
+
+        function preSlide() {
+            index--;
+
+            if(index < 0) {
+                index = child - 1;
+            }
+            
+            document.getElementById("slider").style.right = (index * 100) + "%";
+        }
+
+        setInterval(() => {
+            nextSlide();
+        }, 5000);
+
+
+
+        const renderNewarrivals = async () => {
+            let uri = "http://localhost:3000/products";
+
+            const res = await fetch(uri);
+            const products = await res.json();
+
+            let newarrivalsHTML = "";
+            products.reverse();
+            for(let i = 0; i < 4; i++) {
+                newarrivalsHTML += `
+                    <a href="./html/productdetail.html?id=${products[i].id}" class="card">
+                        <figure>
+                            <img src="../images/products/${products[i].id}-1.png" alt="">
+                        </figure>
+                        <div class="mt-10">
+                            <p>${products[i].name}</p>
+                            <p>$ ${products[i].price}</p>
+                        </div>
+                    </a>
+                `;
+            }
+
+            //display newarrivals
+            document.getElementById("newarrivals").innerHTML = newarrivalsHTML;
+        }
+
+
+
+        //sort by sum of inStock in every product
+        const renderBetseller = async () => {
+            let uri = "http://localhost:3000/products";
+
+            const res = await fetch(uri);
+            const products = await res.json();
+
+
+
+            function plus(total, num) {
+                return total + num;
+            }
+
+            function compare(a, b) {
+                //map creates a new array from calling a function (in this case, function return inStock) for every array element. After that, it will execute a reducer function (plus function) for array element.
+                //map return new array contain inStock value of available array, then reduce inStock value of new array
+                if (a.available.map(arr => arr.inStock).reduce(plus) < b.available.map(arr => arr.inStock).reduce(plus) ){
+                    return -1;
+                }
+                if (a.available.map(arr => arr.inStock).reduce(plus) > b.available.map(arr => arr.inStock).reduce(plus) ){
+                    return 1;
+                }
+                return 0;
+            }   
+
+            /* A function that defines a sort order. The function should return a negative, zero, or positive value, depending on the arguments:
+            function(a, b){return a-b}
+            When sort() compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
+
+            Example:
+            The sort function will sort 40 as a value lower than 100.
+            When comparing 40 and 100, sort() calls the function(40,100).
+            The function calculates 40-100, and returns -60 (a negative value). */
+            products.sort(compare);
+
+            let bestsellersHTML = "";
+            for(let i = 0; i < 6; i++) {
+                bestsellersHTML += `
+                    <a href="./html/productdetail.html?id=${products[i].id}" class="card">
+                        <figure>
+                            <img src="../images/products/${products[i].id}-1.png" alt="">
+                        </figure>
+                        <div class="mt-10">
+                            <p>${products[i].name}</p>
+                            <p>$ ${products[i].price}</p>
+                        </div>
+                    </a>
+                `;
+            }
+
+            //display bestsellers
+            document.getElementById("bestsellers").innerHTML = bestsellersHTML;
+        }
+
+
+
+        window.addEventListener("DOMContentLoaded", () => renderNewarrivals(), renderBetseller());
+    </script>
+</body>
+</html>

@@ -48,7 +48,7 @@ This project is a front-end web development assignment aiming to recreate the de
 5. Right-click on an HTML file from the Explorer Window and click on "Open with Live Server."
 
 - **Secure Token Reminder:**
-If you intend to use the email sending feature in your project, make sure to update the secure token in the `main.js` file located at [js/main.js](https://github.com/56duong/Balenciaga-Website-Clone/blob/main/balenciaga/js/main.js)
+If you intend to use the email sending feature in your project, make sure to update the secure token in the `main.js` file located at [js/main.js](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/js/main.js)
 
 ## Screenshots
 

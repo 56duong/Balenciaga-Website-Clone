@@ -52,15 +52,30 @@ If you intend to use the email sending feature in your project, make sure to upd
 
 ## Screenshots
 
-![Screenshot 1](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/images/readme/balenciaga-project-1.png)
+![image](https://github.com/user-attachments/assets/cc6223b3-20d0-4745-a45d-96875a7de48d)
 
-![Screenshot 2](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/images/readme/balenciaga-project-4.png)
+![image](https://github.com/user-attachments/assets/73d20552-5f87-4245-951e-8f8a83662784)
 
-![Screenshot 3](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/images/readme/balenciaga-project-8.png)
+![image](https://github.com/user-attachments/assets/b350d21b-461d-46ed-9740-8612cfd7ae32)
 
-![Screenshot 4](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/images/readme/balenciaga-project-9.png)
+![image](https://github.com/user-attachments/assets/9762d1e1-5474-474d-b5c2-830cd3c2dbb5)
 
-![Screenshot 5](https://github.com/56duong/Balenciaga-Website-Clone/blob/master/balenciaga/images/readme/balenciaga-project-10.png)
+![image](https://github.com/user-attachments/assets/3c0d6ebc-993c-4a53-a33f-2bdc4bd5676b)
+
+![image](https://github.com/user-attachments/assets/186d3f2f-ac16-4266-96ca-6299e6c7f839)
+
+![image](https://github.com/user-attachments/assets/fa7e8d51-fc9d-4239-9174-248e3167a81b)
+
+![image](https://github.com/user-attachments/assets/d7236ee2-2a5c-444c-b86d-2fbee15f4ba7)
+
+![image](https://github.com/user-attachments/assets/231dba65-dcce-424b-865a-30826a9b769f)
+
+![image](https://github.com/user-attachments/assets/ab3acdf0-43bf-4cfe-a2da-277709561f7a)
+
+![image](https://github.com/user-attachments/assets/3f38aa64-3896-47e0-b240-0b611e739361)
+
+![image](https://github.com/user-attachments/assets/b69737ff-a23e-41b2-bb16-768cf020290e)
+
 
 ## Contact
 
